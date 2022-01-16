@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/26c5301ace.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <title>Sam's Mission Trip</title>
+    <link rel="icon" type="image/x-icon" href="images/logo3.png">
+</head> 
+<body>
+  <header id="navbar">
+  <div class="container">
+    <div class="subcontainer">
+      <nav class="navbar">
+        <a href="" class="nav-branding" ><img src="images/logo3.png" id="logo"></a>
+        <ul class="nav-menu" id="Nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="donations.html" class="nav-link">Donations</a>
+          </li>
+         
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<div class="slides">
+    <img class="mySlides" src="images/Untitled-5.png" width="100%" height="430" alt=""/>
+    <img class="mySlides" src="images/Untitled-3.png" width="100%" height="430" alt=""/>
+    <img class="mySlides" src="images/Untitled-4.png" width="100%" height="430" alt=""/>
+    <img class="mySlides" src="images/Untitled-2.png" width="100%" height="430" alt=""/> </div>
+    <script> 
+ var myIndex = 0;
+ carousel();
+ 
+ function carousel() {
+   var i;
+   var x = document.getElementsByClassName("mySlides");
+   for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+   }
+   myIndex++;
+   if (myIndex > x.length) {myIndex = 1}    
+   x[myIndex-1].style.display = "block";  
+   setTimeout(carousel, 5000); // Change image every 2 seconds
+ }
+ </script>
+</div>
+
+<div class="content">
+<div class="left con">
+  <img src="images/Untitled-1.png">
+</div>
+<div class="middle con">
+  <h2 class="titles con">About Me</h2>
+  <br>
+  <p>&emsp;&emsp;My name is Sam Blanton, and I am a sophomore at the University of Alabama Birmingham. I am currently majoring in Neuroscience and plan to pursue medical school, once I finish my undergraduate degree. I have a heart for helping others, which is why I find joy in mission work. My first trip to Malawi, Africa was in 2016. I served alongside the Project Juembo team and since then, I have been looking for an opportunity to return. This year when the Chinchen family asked if I wanted to join their trip as a chaperone, I immediately said yes. I have been awaiting this trip for six years now and need the help of my family, friends, and community to make it possible. Any donation would be greatly appreciated, and no amount is too small. I chose to create this website for a couple of reasons. First, I wanted to avoid any added costs that come with donation platforms. As I said earlier, this trip would not be possible without your generous donations, which is why I plan to use this website as a way to keep you updated on my journey. I hope to post blog updates leading up to my Africa trip, in Africa, and once I return home. I am truly grateful for this opportunity and can not wait to see what the Lord does through me and everyone on this team. Thank you for your consideration. 
+  </p><br><br>
+  <h2>About The Mission</h2>
+  <br>
+  <p>&emsp;&emsp;Project Juembo is a mission that was started by the Chinchen family in a hope to supply various school supplies and a few goodies to the children of Malawi. This mission has been going on for many years, and provides the children with essentials that are packed in a backpack that they get to call their own. A few examples of what is included in the backpacks are pencils, socks, a pack of crayons and markers, and a notebook. This allows them to go to school with everything they will need to help strengthen their learning experience.  There is a secondary reason I am going on this mission trip. For the first two weeks I will be chaperoning and helping the Project Juembo team, but for the two subsequent weeks I plan on volunteering at African Bible College’s clinic. As I mentioned above I am planning on pursuing medicine and this will give me experience that I will need, along with being a helping hand to the doctors that are staffed there. This will be an amazing experience and working in Africa is something I hope to one day do. </p>
+  <br><br>
+  <a href="donations.html" class="btnlink"><div class="btn">Donate Now</div></a>
+</div>
+<div class="right con">
+  <img src="images/sidebar.png">
+
+</div>
+</div>
+<footer class="footer">
+  <p>Any question or concerns you can reach me at 601-278-0508</p><br>
+  <p class="close">Made by Sam Blanton</p>
+</footer>
+
+
+
+<script src="app.js"></script> 
+</body>
+</html>
