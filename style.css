@@ -85,6 +85,9 @@ body{
     .hamburger{
       display: block;
     }
+    .middle{
+       width: 50%;
+	  }
   
     .hamburger.active .bar:nth-child(2){
       opacity: 0;
