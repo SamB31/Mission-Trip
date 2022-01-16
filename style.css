@@ -291,7 +291,7 @@ h2 {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  
+  min-width: 390px;
 }
 .money img{
   width: 2rem;
