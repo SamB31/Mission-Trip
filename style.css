@@ -86,7 +86,7 @@ body{
       display: block;
     }
     .middle{
-       width: 70%;
+       width: 100%;
 	  }
   
     .hamburger.active .bar:nth-child(2){
