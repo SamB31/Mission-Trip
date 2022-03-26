@@ -273,7 +273,7 @@ h2 {
 
 .progress .progress__bar {
   height: 100%;
-  width: 9.1212%;
+  width: 89.4242%;
   background: linear-gradient(45deg,#ec9f05, #ff4e00);
   animation: fill-bar 3s ease-in;
   
@@ -281,7 +281,7 @@ h2 {
 
 @keyframes fill-bar {
   from {width: 0%;}
-  to {width: 9.1212%;}
+  to {width: 89.4242%%;}
 }
 
 .money{
